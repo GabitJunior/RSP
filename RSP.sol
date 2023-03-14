@@ -51,7 +51,7 @@ contract RSP is ERC20 {
 
         //_mint(address(this), _totalSupply/100*10);
 
-        _mint(0x989477d6B622F55be8287B76A0904a68A2d71f99, _totalSupply);
+        _mint(_contractOwner, _totalSupply);
         //_mint(0xD538C7D64F4AbAd7608B7242Fa574Dc38C1e6c8d, _totalSupply/100*90);
         //_mint(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, _totalSupply/100*10);
     }
